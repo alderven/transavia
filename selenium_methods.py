@@ -2,6 +2,7 @@ import allure
 from allure_commons.types import AttachmentType
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.by import By
 from selenium.common.exceptions import NoSuchElementException
 
@@ -41,3 +42,9 @@ def element_exist(driver, config):
     except NoSuchElementException:
         return False
     return True
+
+
+def enter_text(driver, config, text):
+    element = find_element(driver, config)
+    element.send_keys(text)
+    element.send_keys(Keys.TAB)

@@ -49,6 +49,12 @@ class Home(Base):
         elements = selenium_methods.find_item_by_text(self.driver, item_name)
         elements[2].click()
 
+    def from_enter_text(self, text):
+        selenium_methods.enter_text(self.driver, self.config['HOME']['FROM'], text)
+
+    def to_enter_text(self, text):
+        selenium_methods.enter_text(self.driver, self.config['HOME']['TO'], text)
+
     def click_return_on(self):
         element = selenium_methods.find_element(self.driver, self.config['HOME']['RETURN_ON'])
         self.driver.execute_script("arguments[0].click();", element)
@@ -62,3 +68,7 @@ class Flight(Base):
     @property
     def flight_available(self):
         return selenium_methods.element_exist(self.driver, self.config['FLIGHT']['PRICE'])
+
+    @property
+    def error_message(self):
+        return selenium_methods.find_element(self.driver, self.config['FLIGHT']['ERROR']).text
