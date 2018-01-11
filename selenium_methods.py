@@ -4,7 +4,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.by import By
-from selenium.common.exceptions import NoSuchElementException
+import selenium.common.exceptions as exceptions
 
 TIMEOUT = 30
 DELIMITER = ','
@@ -25,7 +25,10 @@ def find_element(driver, config):
 
 def click(driver, config):
     element = find_element(driver, config)
-    element.click()
+    try:
+        element.click()
+    except exceptions.WebDriverException:
+        driver.execute_script("arguments[0].click();", element)
 
 
 def find_item_by_text(driver, item_name):
@@ -39,7 +42,7 @@ def checkbox_state(driver, config):
 def element_exist(driver, config):
     try:
         find_element(driver, config)
-    except NoSuchElementException:
+    except exceptions.NoSuchElementException:
         return False
     return True
 
@@ -48,3 +51,11 @@ def enter_text(driver, config, text):
     element = find_element(driver, config)
     element.send_keys(text)
     element.send_keys(Keys.TAB)
+
+
+def wait_for_title(driver, title):
+    wait = WebDriverWait(driver, TIMEOUT)
+    try:
+        wait.until(EC.title_is(title))
+    except exceptions.TimeoutException:
+        assert False, 'Title "{}" not found. TimeoutException'.format(title)
