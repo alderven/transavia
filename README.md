@@ -1,19 +1,18 @@
 # GENERAL INFO
 
-This project contains UI tests witten with Python+Selenium and [Allure Report](https://cdn.rawgit.com/alderven/transavia/master/allure-report/index.html)
+This project contains UI tests written on Python+Selenium and [Allure Report](https://cdn.rawgit.com/alderven/transavia/master/allure-report/index.html)
 
 # TEST CASES AND TEST RUN RESULTS:
-№ | Test Script                    | Test Description                                                                                         | Test Run Result (Allure Report) | Comment
-- | ------------------------------ | -------------------------------------------------------------------------------------------------------- | ------------------------------- | --------
-1 | test_1_one_way_ticket.py       | One way ticket |
-2 | test_2_total_amount.py         | Check total amount for tickets from London to Paris for 2 adults and 1 children, hold Luggage: 20kg.'
-                     'Выбрать билет с Hold Luggage 20kg.
-3 | test_3_arrival_time.py         |
-4 | test_4_payment_amount.py       |
-5 | test_5_video_link.py           |
-6 | test_6_perfect_destination.py  |
-7 | test_8_from_dubai_to_agadir.py |
-8 | test_9_complicated_route.py    |
+№ | Test Script                    | Test Description                                                                                       | Test Result (Link to Allure) | Comment
+-- | ------------------------------ | ------------------------------------------------------------------------------------------------------ | ---------------------------- | --------
+1  | test_1_one_way_ticket.py       | One way ticket                                                                                         | [Passed]()                   | -
+2  | test_2_total_amount.py         | Check total amount for tickets from Edinburgh to Paris for 2 adults and 1 children, hold Luggage: 20kg | [Passed]()                   | -
+3  | test_3_arrival_time.py         | Check arrival time                                                                                     | [Failed]()                   | -
+4  | test_4_payment_amount.py       | Check payment amount                                                                                   | [Failed]()                   | -
+5  | test_5_video_link.py           | Check Name and Author for "Handluggage" video instruction                                              | [Passed]()                   | -
+6  | test_6_perfect_destination.py  | Find the perfect destination from "Innsbruck, Austria" with budget less than 200 euro                  | [Passed]()                   | -
+7  | test_8_from_dubai_to_agadir.py | Find flight from Dubai to Agadir, Morocco (negative test)                                              | [Passed]()                   | -
+8  | test_9_complicated_route.py    | Complicated route "Bologna-Eindhoven" (1st date) and "Amsterdam-Casablanca" (2nd date)                 | [Passed]()                   | -
 
 
 # HOW TO INSTALL:
