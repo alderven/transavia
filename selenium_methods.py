@@ -4,7 +4,9 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.by import By
+from selenium.webdriver.support.ui import Select
 import selenium.common.exceptions as exceptions
+
 
 TIMEOUT = 30
 DELIMITER = ','
@@ -49,6 +51,7 @@ def element_exist(driver, config):
 
 def enter_text(driver, config, text):
     element = find_element(driver, config)
+    element.clear()
     element.send_keys(text)
     element.send_keys(Keys.TAB)
 
@@ -59,3 +62,9 @@ def wait_for_title(driver, title):
         wait.until(EC.title_is(title))
     except exceptions.TimeoutException:
         assert False, 'Title "{}" not found. TimeoutException'.format(title)
+
+
+def select_element(driver, config, value_to_select):
+    element = find_element(driver, config)
+    select = Select(element)
+    select.select_by_visible_text(value_to_select)

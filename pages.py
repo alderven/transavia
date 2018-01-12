@@ -81,6 +81,21 @@ class Home(Base):
     def click_add_multiple_destinations(self):
         selenium_methods.click(self.driver, self.config['HOME']['ADD_MULTIPLE_DESTINATIONS'])
 
+    def click_service(self):
+        selenium_methods.click(self.driver, self.config['HOME']['SERVICE'])
+
+    def click_hand_luggage(self):
+        selenium_methods.click(self.driver, self.config['HOME']['HAND_LUGGAGE'])
+
+    def click_destinations(self):
+        selenium_methods.click(self.driver, self.config['HOME']['DESTINATIONS'])
+
+    def click_plain_and_book(self):
+        selenium_methods.click(self.driver, self.config['HOME']['PLAIN_AND_BOOK'])
+
+    def click_advanced_search(self):
+        selenium_methods.click(self.driver, self.config['HOME']['ADVANCED_SEARCH'])
+
 
 class Flight(Base):
 
@@ -182,3 +197,79 @@ class MultipleDestinations(Base):
 
     def click_search(self):
         selenium_methods.click(self.driver, self.config['MULTIPLE_DESTINATIONS']['SEARCH'])
+
+
+class HandLuggage(Base):
+
+    def click_tips(self):
+        selenium_methods.click(self.driver, self.config['HAND_LUGGAGE']['TIPS'])
+
+    @property
+    def video_link(self):
+        element = selenium_methods.find_element(self.driver, self.config['HAND_LUGGAGE']['VIDEO'])
+        src = element.get_attribute('src')
+        return src.replace('embed', 'watch')
+
+
+class Destinations(Base):
+
+    def find_destination(self):
+        selenium_methods.click(self.driver, self.config['DESTINATIONS']['FIND'])
+
+
+class AdvancedSearch(Base):
+
+    def from_enter_text(self, text):
+        selenium_methods.enter_text(self.driver, self.config['ADVANCED_SEARCH']['FROM'], text)
+
+    def to_enter_text(self, text):
+        selenium_methods.enter_text(self.driver, self.config['ADVANCED_SEARCH']['TO'], text)
+
+    def click_what_is_your_budget(self):
+        selenium_methods.click(self.driver, self.config['ADVANCED_SEARCH']['WHAT_IS_YOUR_BUDGET'])
+
+    def click_when_will_you_be_taking_off(self):
+        selenium_methods.click(self.driver, self.config['ADVANCED_SEARCH']['WHEN_WILL_YOU_BE_TAKING_OFF'])
+
+    def input_budget(self, budget):
+        selenium_methods.enter_text(self.driver, self.config['ADVANCED_SEARCH']['MY_BUDGET'], str(budget))
+
+    def select_flight_type(self, flight_type):
+        selenium_methods.select_element(self.driver, self.config['ADVANCED_SEARCH']['FLIGHT_TYPE'], flight_type)
+
+    def select_specific_month(self, month):
+        time.sleep(SLEEP)
+        selenium_methods.select_element(self.driver, self.config['ADVANCED_SEARCH']['MONTH'], month)
+        time.sleep(SLEEP)
+
+    def select_day_of_the_week(self, day):
+        time.sleep(SLEEP)
+        selenium_methods.select_element(self.driver, self.config['ADVANCED_SEARCH']['DAY_OF_THE_WEEK'], day)
+        time.sleep(SLEEP)
+
+    def search(self):
+        time.sleep(SLEEP)
+        selenium_methods.click(self.driver, self.config['ADVANCED_SEARCH']['SEARCH'])
+        time.sleep(SLEEP)
+
+    def get_search_results(self):
+        return selenium_methods.find_element(self.driver, self.config['ADVANCED_SEARCH']['SEARCH_RESULT_1']).text
+
+    def get_price_and_city(self):
+        price = selenium_methods.find_element(self.driver, self.config['ADVANCED_SEARCH']['SEARCH_RESULT_1_PRICE']).text
+        city = selenium_methods.find_element(self.driver, self.config['ADVANCED_SEARCH']['SEARCH_RESULT_1_CITY']).text
+        return price, city
+
+
+class YouTube(Base):
+
+    def open_video_page(self, url):
+        return self.driver.get(url)
+
+    @property
+    def name(self):
+        return selenium_methods.find_element(self.driver, self.config['YOUTUBE']['NAME']).text
+
+    @property
+    def author(self):
+        return selenium_methods.find_element(self.driver, self.config['YOUTUBE']['AUTHOR']).text
