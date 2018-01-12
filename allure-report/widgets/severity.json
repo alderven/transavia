@@ -1,0 +1,81 @@
+[ {
+  "uid" : "99b635da8416612",
+  "name" : "test_4_payment_amount",
+  "time" : {
+    "start" : 1515766902020,
+    "stop" : 1515766939438,
+    "duration" : 37418
+  },
+  "status" : "failed",
+  "severity" : "blocker"
+}, {
+  "uid" : "eaf600c60cc0ef5e",
+  "name" : "test_5_video_link",
+  "time" : {
+    "start" : 1515767120161,
+    "stop" : 1515767130933,
+    "duration" : 10772
+  },
+  "status" : "passed",
+  "severity" : "minor"
+}, {
+  "uid" : "2e210ad74c3c6bec",
+  "name" : "test_9_complicated_route",
+  "time" : {
+    "start" : 1515767709042,
+    "stop" : 1515767731741,
+    "duration" : 22699
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "5f43c83e851cae70",
+  "name" : "test_3_arrival_time",
+  "time" : {
+    "start" : 1515766752476,
+    "stop" : 1515766788697,
+    "duration" : 36221
+  },
+  "status" : "failed",
+  "severity" : "blocker"
+}, {
+  "uid" : "9fb2ecabc704b164",
+  "name" : "test_1_one_way_ticket",
+  "time" : {
+    "start" : 1515766522473,
+    "stop" : 1515766533463,
+    "duration" : 10990
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "1fec51a69e932c63",
+  "name" : "test_8_from_dubai_to_agadir",
+  "time" : {
+    "start" : 1515767691540,
+    "stop" : 1515767702516,
+    "duration" : 10976
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "6da682c0c4ae13d9",
+  "name" : "test_6_perfect_destination",
+  "time" : {
+    "start" : 1515767628278,
+    "stop" : 1515767646886,
+    "duration" : 18608
+  },
+  "status" : "passed",
+  "severity" : "minor"
+}, {
+  "uid" : "b58389dbe5f85fa6",
+  "name" : "test_2_total_amount",
+  "time" : {
+    "start" : 1515766654068,
+    "stop" : 1515766688439,
+    "duration" : 34371
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+} ]

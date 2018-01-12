@@ -1,0 +1,101 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "test_1_one_way_ticket",
+    "uid" : "9fb2ecabc704b164",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "passed",
+    "time" : {
+      "start" : 1515766522473,
+      "stop" : 1515766533463,
+      "duration" : 10990
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_2_total_amount",
+    "uid" : "b58389dbe5f85fa6",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "passed",
+    "time" : {
+      "start" : 1515766654068,
+      "stop" : 1515766688439,
+      "duration" : 34371
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_3_arrival_time",
+    "uid" : "5f43c83e851cae70",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "failed",
+    "time" : {
+      "start" : 1515766752476,
+      "stop" : 1515766788697,
+      "duration" : 36221
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_4_payment_amount",
+    "uid" : "99b635da8416612",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "failed",
+    "time" : {
+      "start" : 1515766902020,
+      "stop" : 1515766939438,
+      "duration" : 37418
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_5_video_link",
+    "uid" : "eaf600c60cc0ef5e",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "passed",
+    "time" : {
+      "start" : 1515767120161,
+      "stop" : 1515767130933,
+      "duration" : 10772
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_6_perfect_destination",
+    "uid" : "6da682c0c4ae13d9",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "passed",
+    "time" : {
+      "start" : 1515767628278,
+      "stop" : 1515767646886,
+      "duration" : 18608
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_8_from_dubai_to_agadir",
+    "uid" : "1fec51a69e932c63",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "passed",
+    "time" : {
+      "start" : 1515767691540,
+      "stop" : 1515767702516,
+      "duration" : 10976
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_9_complicated_route",
+    "uid" : "2e210ad74c3c6bec",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "passed",
+    "time" : {
+      "start" : 1515767709042,
+      "stop" : 1515767731741,
+      "duration" : 22699
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  } ]
+}

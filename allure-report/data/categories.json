@@ -1,0 +1,37 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: Title \"Account overview\" not found. TimeoutException",
+      "children" : [ {
+        "name" : "test_3_arrival_time",
+        "uid" : "5f43c83e851cae70",
+        "parentUid" : "f4fa11b542e0dec8a12ce2447b560b44",
+        "status" : "failed",
+        "time" : {
+          "start" : 1515766752476,
+          "stop" : 1515766788697,
+          "duration" : 36221
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_4_payment_amount",
+        "uid" : "99b635da8416612",
+        "parentUid" : "f4fa11b542e0dec8a12ce2447b560b44",
+        "status" : "failed",
+        "time" : {
+          "start" : 1515766902020,
+          "stop" : 1515766939438,
+          "duration" : 37418
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f4fa11b542e0dec8a12ce2447b560b44"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}
