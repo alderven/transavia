@@ -3,7 +3,7 @@ from pages import Home, Destinations, AdvancedSearch
 
 
 @pytest.allure.feature('Transavia')
-@pytest.allure.story('Поиск билета в одну сторону с бюджетом < 200 euro (аэропорт вылета: Innsbruck, Austria)')
+@pytest.allure.story('Find the perfect destination from "Innsbruck, Austria" with budget less than 200 euro')
 @pytest.allure.severity(pytest.allure.severity_level.MINOR)
 def test_6_perfect_destination(driver):
 

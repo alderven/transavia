@@ -3,7 +3,7 @@ from pages import Home, Flight
 
 
 @pytest.allure.feature('Transavia')
-@pytest.allure.story('Найти рейсы из Dubai в Agadir, Morocco')
+@pytest.allure.story('Find flight from Dubai to Agadir, Morocco (negative test)')
 @pytest.allure.severity(pytest.allure.severity_level.BLOCKER)
 def test_8_from_dubai_to_agadir(driver):
 

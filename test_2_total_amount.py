@@ -3,9 +3,7 @@ from pages import Home, Flight, Fare
 
 
 @pytest.allure.feature('Transavia')
-@pytest.allure.story('Проверка total суммы выбранных билетов. '
-                     'Двое взрослых и один ребенок(2-11 age) из Лондона в Париж в обе стороны.'
-                     'Выбрать билет с Hold Luggage 20kg.')
+@pytest.allure.story('Check total amount for tickets from Edinburgh to Paris for 2 adults and 1 children, hold Luggage: 20kg')
 @pytest.allure.severity(pytest.allure.severity_level.BLOCKER)
 def test_2_total_amount(driver):
 

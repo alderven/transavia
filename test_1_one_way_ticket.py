@@ -3,7 +3,7 @@ from pages import Home, Flight
 
 
 @pytest.allure.feature('Transavia')
-@pytest.allure.story('Заполнение поля "Where do you want to go?" для выбора одиночного перелета на одну персону в одну сторону')
+@pytest.allure.story('One way ticket')
 @pytest.allure.severity(pytest.allure.severity_level.BLOCKER)
 def test_1_one_way_ticket(driver):
 

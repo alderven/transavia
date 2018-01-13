@@ -256,7 +256,7 @@ class AdvancedSearch(Base):
         return selenium_methods.find_element(self.driver, self.config['ADVANCED_SEARCH']['SEARCH_RESULT_1']).text
 
     def get_price_and_city(self):
-        price = selenium_methods.find_element(self.driver, self.config['ADVANCED_SEARCH']['SEARCH_RESULT_1_PRICE']).text
+        price = int(selenium_methods.find_element(self.driver, self.config['ADVANCED_SEARCH']['SEARCH_RESULT_1_PRICE']).text)
         city = selenium_methods.find_element(self.driver, self.config['ADVANCED_SEARCH']['SEARCH_RESULT_1_CITY']).text
         return price, city
 

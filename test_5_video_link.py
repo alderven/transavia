@@ -3,7 +3,7 @@ from pages import Home, HandLuggage, YouTube
 
 
 @pytest.allure.feature('Transavia')
-@pytest.allure.story('Проверить валидность ссылки на видео с инструкцией Transavia по ручному багажу ')
+@pytest.allure.story('Check Name and Author for "Handluggage" video instruction')
 @pytest.allure.severity(pytest.allure.severity_level.MINOR)
 def test_5_video_link(driver):
 

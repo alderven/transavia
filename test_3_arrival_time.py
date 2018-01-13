@@ -1,9 +1,11 @@
 import pytest
+xfail = pytest.mark.xfail
 from pages import Home, Login
 
 
+@xfail(reason='Booking credentials (booking no. "MF8C9R"; last name "kukharau", flight date "9 June 2016") are not valid')
 @pytest.allure.feature('Transavia')
-@pytest.allure.story('Зайти в кабинет и проверить ожидаемое и фактическое время приземления самолета')
+@pytest.allure.story('Check arrival time')
 @pytest.allure.severity(pytest.allure.severity_level.BLOCKER)
 def test_3_arrival_time(driver):
 

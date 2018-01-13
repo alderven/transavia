@@ -3,7 +3,7 @@ from pages import Home, MultipleDestinations
 
 
 @pytest.allure.feature('Transavia')
-@pytest.allure.story('Проверить стоимость сложного маршрута Bologna-Eindhoven (1st date) и Amsterdam-Casablanca (2nd date)')
+@pytest.allure.story('Complicated route "Bologna-Eindhoven" (1st date) and "Amsterdam-Casablanca" (2nd date)')
 @pytest.allure.severity(pytest.allure.severity_level.BLOCKER)
 def test_9_complicated_route(driver):
 

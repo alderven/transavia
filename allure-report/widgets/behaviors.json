@@ -4,12 +4,12 @@
     "uid" : "0667b0fc65443486564bf542359c09f2",
     "name" : "Transavia",
     "statistic" : {
-      "failed" : 2,
+      "failed" : 0,
       "broken" : 0,
-      "skipped" : 0,
-      "passed" : 6,
+      "skipped" : 2,
+      "passed" : 7,
       "unknown" : 0,
-      "total" : 8
+      "total" : 9
     }
   } ]
 }
