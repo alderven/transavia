@@ -18,7 +18,7 @@ def test_1_one_way_ticket(driver):
     with pytest.allure.step('3. Click "FROM" field'):
         home.click_from()
 
-    with pytest.allure.step('4. Check, that drop down list with appears'):
+    with pytest.allure.step('4. Check, that drop down list appears'):
         expected = 'Edinburgh, United Kingdom'
         assert expected in home.text, 'Text "{}" not found on page: {}'.format(expected, home.text)
 
@@ -45,6 +45,6 @@ def test_1_one_way_ticket(driver):
     with pytest.allure.step('11. Press "Search" button'):
         home.click_search()
 
-    with pytest.allure.step('12. Check, that there is at least one flight avaiable in the periof from 1 to 7 days'):
+    with pytest.allure.step('12. Check, that there is at least one flight available in the period from 1 to 7 days'):
         flight = Flight(driver)
         assert flight.flight_available, 'No flights are found in the period from 1 to 7 days'
