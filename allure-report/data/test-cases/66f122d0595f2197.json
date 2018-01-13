@@ -1,0 +1,272 @@
+{
+  "uid" : "66f122d0595f2197",
+  "name" : "test_6_perfect_destination",
+  "fullName" : "test_6_perfect_destination#test_6_perfect_destination",
+  "historyId" : "37c2375d102387c5c133628b26d2d276",
+  "time" : {
+    "start" : 1515831820710,
+    "stop" : 1515831840881,
+    "duration" : 20171
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "driver",
+    "time" : {
+      "start" : 1515831819502,
+      "stop" : 1515831820710,
+      "duration" : 1208
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "1. Open \"transavia.com\" website",
+      "time" : {
+        "start" : 1515831820710,
+        "stop" : 1515831824125,
+        "duration" : 3415
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "2. Check, that we are on booking page",
+      "time" : {
+        "start" : 1515831824125,
+        "stop" : 1515831824194,
+        "duration" : 69
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "3. Click \"Destinations\"",
+      "time" : {
+        "start" : 1515831824194,
+        "stop" : 1515831825051,
+        "duration" : 857
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c762f0a093e5f4f1",
+        "name" : "Screenshot",
+        "source" : "c762f0a093e5f4f1.png",
+        "type" : "image/png",
+        "size" : 106244
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "4. Click \"Find the perfect destination\"",
+      "time" : {
+        "start" : 1515831825051,
+        "stop" : 1515831826915,
+        "duration" : 1864
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "979051c3f3c710f8",
+        "name" : "Screenshot",
+        "source" : "979051c3f3c710f8.png",
+        "type" : "image/png",
+        "size" : 134711
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "5. Input \"Innsbruck, Austria\" into \"FROM\" field",
+      "time" : {
+        "start" : 1515831826915,
+        "stop" : 1515831829776,
+        "duration" : 2861
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "512965fd91293703",
+        "name" : "Screenshot",
+        "source" : "512965fd91293703.png",
+        "type" : "image/png",
+        "size" : 524601
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "6. Click button \"What is your budget per person?\"",
+      "time" : {
+        "start" : 1515831829776,
+        "stop" : 1515831829988,
+        "duration" : 212
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a2f1d5ff51653645",
+        "name" : "Screenshot",
+        "source" : "a2f1d5ff51653645.png",
+        "type" : "image/png",
+        "size" : 526609
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "7. input \"200\" into field \"My budget\"",
+      "time" : {
+        "start" : 1515831829988,
+        "stop" : 1515831830278,
+        "duration" : 290
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "466b081d148b153c",
+        "name" : "Screenshot",
+        "source" : "466b081d148b153c.png",
+        "type" : "image/png",
+        "size" : 525062
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "8. Click \"Search\" button",
+      "time" : {
+        "start" : 1515831830278,
+        "stop" : 1515831840582,
+        "duration" : 10304
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "7836dee019055b9f",
+        "name" : "Screenshot",
+        "source" : "7836dee019055b9f.png",
+        "type" : "image/png",
+        "size" : 527578
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "9. Check search results",
+      "time" : {
+        "start" : 1515831840582,
+        "stop" : 1515831840880,
+        "duration" : 298
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b6275960d42738b5",
+        "name" : "Screenshot",
+        "source" : "b6275960d42738b5.png",
+        "type" : "image/png",
+        "size" : 1261832
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 7,
+    "stepsCount" : 9,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "driver::teardown",
+    "time" : {
+      "start" : 1515831840885,
+      "stop" : 1515831845193,
+      "duration" : 4308
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "minor"
+  }, {
+    "name" : "feature",
+    "value" : "Transavia"
+  }, {
+    "name" : "story",
+    "value" : "Find the perfect destination from \"Innsbruck, Austria\" with budget less than 200 euro"
+  }, {
+    "name" : "host",
+    "value" : "MASYAN"
+  }, {
+    "name" : "thread",
+    "value" : "13272-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_6_perfect_destination"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "minor",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "66f122d0595f2197.json",
+  "parameterValues" : [ ]
+}

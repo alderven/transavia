@@ -1,0 +1,374 @@
+{
+  "uid" : "d4c7307cabc0bc64",
+  "name" : "test_2_total_amount",
+  "fullName" : "test_2_total_amount#test_2_total_amount",
+  "historyId" : "fa4a955dbd025dd17c43723a1a5607bb",
+  "time" : {
+    "start" : 1515831159981,
+    "stop" : 1515831191235,
+    "duration" : 31254
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "driver",
+    "time" : {
+      "start" : 1515831158832,
+      "stop" : 1515831159980,
+      "duration" : 1148
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "1. Open \"transavia.com\" website",
+      "time" : {
+        "start" : 1515831159981,
+        "stop" : 1515831161820,
+        "duration" : 1839
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "2. Check, that we are on booking page",
+      "time" : {
+        "start" : 1515831161821,
+        "stop" : 1515831161889,
+        "duration" : 68
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "3. Input \"Edinburgh\" into \"FROM\" field",
+      "time" : {
+        "start" : 1515831161889,
+        "stop" : 1515831164456,
+        "duration" : 2567
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "982441f2179e025a",
+        "name" : "Screenshot",
+        "source" : "982441f2179e025a.png",
+        "type" : "image/png",
+        "size" : 3413770
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "4. Input \"Paris\" into \"TO\" field",
+      "time" : {
+        "start" : 1515831164456,
+        "stop" : 1515831165673,
+        "duration" : 1217
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d0f2026dcfa7ad30",
+        "name" : "Screenshot",
+        "source" : "d0f2026dcfa7ad30.png",
+        "type" : "image/png",
+        "size" : 3362221
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "5. Open \"Who will be travelling?\" menu",
+      "time" : {
+        "start" : 1515831165673,
+        "stop" : 1515831166857,
+        "duration" : 1184
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e4b15923d2bfac10",
+        "name" : "Screenshot",
+        "source" : "e4b15923d2bfac10.png",
+        "type" : "image/png",
+        "size" : 3413821
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "6. Add 1 Adult passenger",
+      "time" : {
+        "start" : 1515831166857,
+        "stop" : 1515831168040,
+        "duration" : 1183
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "cba8804f19fe52ba",
+        "name" : "Screenshot",
+        "source" : "cba8804f19fe52ba.png",
+        "type" : "image/png",
+        "size" : 3420696
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "7. Add 1 Children passenger",
+      "time" : {
+        "start" : 1515831168040,
+        "stop" : 1515831169071,
+        "duration" : 1031
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "3dd3340e252aab4a",
+        "name" : "Screenshot",
+        "source" : "3dd3340e252aab4a.png",
+        "type" : "image/png",
+        "size" : 3344876
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "8. Enter \"Search\" button",
+      "time" : {
+        "start" : 1515831169071,
+        "stop" : 1515831170106,
+        "duration" : 1035
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "99c4421928d4b122",
+        "name" : "Screenshot",
+        "source" : "99c4421928d4b122.png",
+        "type" : "image/png",
+        "size" : 3346631
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "9. Select available Outbound flight",
+      "time" : {
+        "start" : 1515831170106,
+        "stop" : 1515831175390,
+        "duration" : 5284
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "62a1f7e2fdfa09c0",
+        "name" : "Screenshot",
+        "source" : "62a1f7e2fdfa09c0.png",
+        "type" : "image/png",
+        "size" : 112599
+      }, {
+        "uid" : "59aa466525b8ee10",
+        "name" : "Screenshot",
+        "source" : "59aa466525b8ee10.png",
+        "type" : "image/png",
+        "size" : 112599
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "10. Select available Inbound flight",
+      "time" : {
+        "start" : 1515831175390,
+        "stop" : 1515831175643,
+        "duration" : 253
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ad2ba0c6e165cbc9",
+        "name" : "Screenshot",
+        "source" : "ad2ba0c6e165cbc9.png",
+        "type" : "image/png",
+        "size" : 86507
+      }, {
+        "uid" : "39ab40e31e8be3d",
+        "name" : "Screenshot",
+        "source" : "39ab40e31e8be3d.png",
+        "type" : "image/png",
+        "size" : 93627
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "11. Click \"Next\"",
+      "time" : {
+        "start" : 1515831175643,
+        "stop" : 1515831180782,
+        "duration" : 5139
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "f1c93e7ae82f08e9",
+        "name" : "Screenshot",
+        "source" : "f1c93e7ae82f08e9.png",
+        "type" : "image/png",
+        "size" : 134735
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "12. Select \"Plus\" fare",
+      "time" : {
+        "start" : 1515831180782,
+        "stop" : 1515831185916,
+        "duration" : 5134
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "2460c77445bc2aa1",
+        "name" : "Screenshot",
+        "source" : "2460c77445bc2aa1.png",
+        "type" : "image/png",
+        "size" : 128093
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "13. Check total amount",
+      "time" : {
+        "start" : 1515831185916,
+        "stop" : 1515831191234,
+        "duration" : 5318
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "5f0a4b006cb7d725",
+        "name" : "Screenshot",
+        "source" : "5f0a4b006cb7d725.png",
+        "type" : "image/png",
+        "size" : 63433
+      }, {
+        "uid" : "60652d3973499ec4",
+        "name" : "Screenshot",
+        "source" : "60652d3973499ec4.png",
+        "type" : "image/png",
+        "size" : 132435
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 14,
+    "stepsCount" : 13,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "driver::teardown",
+    "time" : {
+      "start" : 1515831191239,
+      "stop" : 1515831195574,
+      "duration" : 4335
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "feature",
+    "value" : "Transavia"
+  }, {
+    "name" : "story",
+    "value" : "Check total amount for tickets from Edinburgh to Paris for 2 adults and 1 children, hold Luggage: 20kg"
+  }, {
+    "name" : "host",
+    "value" : "MASYAN"
+  }, {
+    "name" : "thread",
+    "value" : "868-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_2_total_amount"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d4c7307cabc0bc64.json",
+  "parameterValues" : [ ]
+}

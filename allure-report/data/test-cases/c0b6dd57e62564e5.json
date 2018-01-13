@@ -1,0 +1,209 @@
+{
+  "uid" : "c0b6dd57e62564e5",
+  "name" : "test_8_from_dubai_to_agadir",
+  "fullName" : "test_8_from_dubai_to_agadir#test_8_from_dubai_to_agadir",
+  "historyId" : "5cc3fa800a58024bb5439cbf2f36f35f",
+  "time" : {
+    "start" : 1515831921888,
+    "stop" : 1515831930701,
+    "duration" : 8813
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "driver",
+    "time" : {
+      "start" : 1515831920698,
+      "stop" : 1515831921888,
+      "duration" : 1190
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "1 Open \"transavia.com\" website",
+      "time" : {
+        "start" : 1515831921889,
+        "stop" : 1515831924410,
+        "duration" : 2521
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "2. Check, that we are on booking page",
+      "time" : {
+        "start" : 1515831924410,
+        "stop" : 1515831924540,
+        "duration" : 130
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "3. Input \"Dubai\" into \"FROM\" field",
+      "time" : {
+        "start" : 1515831924541,
+        "stop" : 1515831925775,
+        "duration" : 1234
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "2be4b55bc329b2e1",
+        "name" : "Screenshot",
+        "source" : "2be4b55bc329b2e1.png",
+        "type" : "image/png",
+        "size" : 107102
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "4. Input \"Agadir, Morocco\" into \"TO\" field",
+      "time" : {
+        "start" : 1515831925775,
+        "stop" : 1515831927315,
+        "duration" : 1540
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "92daeedd4a0e5309",
+        "name" : "Screenshot",
+        "source" : "92daeedd4a0e5309.png",
+        "type" : "image/png",
+        "size" : 3363036
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "5. Enter \"Search\" button",
+      "time" : {
+        "start" : 1515831927315,
+        "stop" : 1515831928461,
+        "duration" : 1146
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "9e4105856e28f12e",
+        "name" : "Screenshot",
+        "source" : "9e4105856e28f12e.png",
+        "type" : "image/png",
+        "size" : 3413558
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "6. Verify error message",
+      "time" : {
+        "start" : 1515831928461,
+        "stop" : 1515831930701,
+        "duration" : 2240
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b2827f525ee5fc2a",
+        "name" : "Screenshot",
+        "source" : "b2827f525ee5fc2a.png",
+        "type" : "image/png",
+        "size" : 89956
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 4,
+    "stepsCount" : 6,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "driver::teardown",
+    "time" : {
+      "start" : 1515831930706,
+      "stop" : 1515831936043,
+      "duration" : 5337
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "Find flight from Dubai to Agadir, Morocco (negative test)"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "feature",
+    "value" : "Transavia"
+  }, {
+    "name" : "host",
+    "value" : "MASYAN"
+  }, {
+    "name" : "thread",
+    "value" : "11528-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_8_from_dubai_to_agadir"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c0b6dd57e62564e5.json",
+  "parameterValues" : [ ]
+}

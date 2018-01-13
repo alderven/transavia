@@ -1,0 +1,243 @@
+{
+  "uid" : "365aaa548ef840e0",
+  "name" : "test_4_payment_amount",
+  "fullName" : "test_4_payment_amount#test_4_payment_amount",
+  "historyId" : "eacb4d9cac1eacb50d68d9eeb2323f63",
+  "time" : {
+    "start" : 1515831666634,
+    "stop" : 1515831703916,
+    "duration" : 37282
+  },
+  "status" : "skipped",
+  "statusMessage" : "Booking credentials (booking no. \"MF8C9R\"; last name \"kukharau\", flight date \"9 June 2016\") are not valid",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "driver",
+    "time" : {
+      "start" : 1515831665478,
+      "stop" : 1515831666634,
+      "duration" : 1156
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "skipped",
+    "statusMessage" : "Booking credentials (booking no. \"MF8C9R\"; last name \"kukharau\", flight date \"9 June 2016\") are not valid",
+    "steps" : [ {
+      "name" : "1. Open \"transavia.com\" website",
+      "time" : {
+        "start" : 1515831666634,
+        "stop" : 1515831669410,
+        "duration" : 2776
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "2. Check, that we are on booking page",
+      "time" : {
+        "start" : 1515831669410,
+        "stop" : 1515831669478,
+        "duration" : 68
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "3. Click \"Manage your booking\" button",
+      "time" : {
+        "start" : 1515831669478,
+        "stop" : 1515831670263,
+        "duration" : 785
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c28d854cfc785cab",
+        "name" : "Screenshot",
+        "source" : "c28d854cfc785cab.png",
+        "type" : "image/png",
+        "size" : 108766
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "4. Click \"View your booking\" button",
+      "time" : {
+        "start" : 1515831670263,
+        "stop" : 1515831670580,
+        "duration" : 317
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d5b6797d0028af28",
+        "name" : "Screenshot",
+        "source" : "d5b6797d0028af28.png",
+        "type" : "image/png",
+        "size" : 107540
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "5. Check, that we are on Login Page",
+      "time" : {
+        "start" : 1515831670580,
+        "stop" : 1515831672159,
+        "duration" : 1579
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "6. Enter booking no. \"MF8C9R\"; last name \"kukharau\", flight date \"9 June 2016\"",
+      "time" : {
+        "start" : 1515831672159,
+        "stop" : 1515831673469,
+        "duration" : 1310
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a0bb3103e9e9d4db",
+        "name" : "Screenshot",
+        "source" : "a0bb3103e9e9d4db.png",
+        "type" : "image/png",
+        "size" : 77599
+      }, {
+        "uid" : "2360127a202ce494",
+        "name" : "Screenshot",
+        "source" : "2360127a202ce494.png",
+        "type" : "image/png",
+        "size" : 76635
+      }, {
+        "uid" : "6eeb2b1fa766542",
+        "name" : "Screenshot",
+        "source" : "6eeb2b1fa766542.png",
+        "type" : "image/png",
+        "size" : 73347
+      }, {
+        "uid" : "aa129cfc81e3df5",
+        "name" : "Screenshot",
+        "source" : "aa129cfc81e3df5.png",
+        "type" : "image/png",
+        "size" : 89270
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 4,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "7. Check, that login was successful",
+      "time" : {
+        "start" : 1515831673469,
+        "stop" : 1515831703913,
+        "duration" : 30444
+      },
+      "status" : "failed",
+      "statusMessage" : "AssertionError: Title \"Account overview\" not found. TimeoutException\n",
+      "statusTrace" : "  File \"F:\\PROGRAMMING\\EPAM\\transavia\\test_4_payment_amount.py\", line 40, in test_4_payment_amount\n    login.wait_for_title(title)\n  File \"F:\\PROGRAMMING\\EPAM\\transavia\\pages.py\", line 127, in wait_for_title\n    selenium_methods.wait_for_title(self.driver, title)\n  File \"F:\\PROGRAMMING\\EPAM\\transavia\\selenium_methods.py\", line 64, in wait_for_title\n    assert False, 'Title \"{}\" not found. TimeoutException'.format(title)\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : true,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 6,
+    "stepsCount" : 7,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "driver::teardown",
+    "time" : {
+      "start" : 1515831704063,
+      "stop" : 1515831708378,
+      "duration" : 4315
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "story",
+    "value" : "Check payment amount"
+  }, {
+    "name" : "feature",
+    "value" : "Transavia"
+  }, {
+    "name" : "tag",
+    "value" : "@pytest.mark.xfail(reason='Booking credentials (booking no. \"MF8C9R\"; last name \"kukharau\", flight date \"9 June 2016\") are not valid')"
+  }, {
+    "name" : "host",
+    "value" : "MASYAN"
+  }, {
+    "name" : "thread",
+    "value" : "6296-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_4_payment_amount"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.xfail(reason='Booking credentials (booking no. \"MF8C9R\"; last name \"kukharau\", flight date \"9 June 2016\") are not valid')" ]
+  },
+  "source" : "365aaa548ef840e0.json",
+  "parameterValues" : [ ]
+}
